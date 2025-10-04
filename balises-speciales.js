@@ -11,7 +11,7 @@ $(document).ready(function () {
             const panelHTML = `
                 <button class="toggle-panel">
                     <i class="fa-solid fa-chevron-down" style="padding-right: 3px"></i> 
-                    Afficher les balises
+                    Afficher l\'éditeur
                 </button>
                 <div class="editor-panel" style="display: none;">
                     <div class="panel-content">
@@ -71,8 +71,8 @@ $(document).ready(function () {
                 $('.editor-panel').slideToggle(300, () => {
                     const visible = $('.editor-panel').is(':visible');
                     $(this).html(visible
-                        ? '<i class="fa-solid fa-chevron-up" style="padding-right: 3px"></i> Masquer les balises'
-                        : '<i class="fa-solid fa-chevron-down" style="padding-right: 3px"></i> Afficher les balises'
+                        ? '<i class="fa-solid fa-chevron-up" style="padding-right: 3px"></i> Cacher l\'éditeur'
+                        : '<i class="fa-solid fa-chevron-down" style="padding-right: 3px"></i> Afficher l\'éditeur'
                     );
                 });
             });
@@ -87,10 +87,12 @@ $('<style>')
     .prop('type', 'text/css')
     .html(`
         /* Style des boutons-balise */
+           .panel-content button {
+            background-color: #f0f0f0;
+        }
         .panel-content button {
             margin: 2px;
             padding: 4px 8px;
-            background-color: #f0f0f0;
             color: #222;
             border: 1px solid #ccc;
             border-radius: 4px;
