@@ -1,0 +1,3356 @@
+/*--------------------------------------------------------------------
+
+SaturnIcons v.2.22
+Custom font by Saturn Themes | saturnthms.tumblr.com
+
+Â© All Rights Reserved
+
+This work is protected under the terms of use available at
+saturnthms.tumblr.com/info/terms
+This work is also protected under copyright law.
+
+The breach of the aforementioned terms of use will result in
+the immediate termination of your license to use any of my work
+and legal action may be taken against you.
+
+--------------------------------------------------------------------*/
+@charset "UTF-8";
+
+@font-face {
+    font-family: "saturnicons";
+    src: url(https://files.jcink.net/uploads/ghostsongs/fonts/saturnicons.eot);
+    src: url(https://files.jcink.net/uploads/ghostsongs/fonts/saturnicons.eot?#iefix) format("embedded-opentype"), url(https://files.jcink.net/uploads/ghostsongs/fonts/saturnicons.woff) format("woff"), url(https://files.jcink.net/uploads/ghostsongs/fonts/saturnicons.ttf) format("truetype"), url(https://files.jcink.net/uploads/ghostsongs/fonts/saturnicons.svg#saturnicons) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.sf:before,
+[data-icon]:before {
+    font-family: "saturnicons" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+[class^="sf-"]:before,
+[class*=" sf-"]:before {
+    font-family: "saturnicons" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.sf-acorn:before {
+    content: "\e000"
+}
+
+.sf-acorn-o:before {
+    content: "\e001"
+}
+
+.sf-aero-cursor:before {
+    content: "\e002"
+}
+
+.sf-aero-cursor-o:before {
+    content: "\e003"
+}
+
+.sf-airplane:before {
+    content: "\e004"
+}
+
+.sf-airplane-o:before {
+    content: "\e005"
+}
+
+.sf-alien:before {
+    content: "\e006"
+}
+
+.sf-alien-o:before {
+    content: "\e007"
+}
+
+.sf-ambulance:before {
+    content: "\e008"
+}
+
+.sf-anchor:before {
+    content: "\e009"
+}
+
+.sf-anchor-o:before {
+    content: "\e00a"
+}
+
+.sf-angelic-rune:before {
+    content: "\e00b"
+}
+
+.sf-angle:before {
+    content: "\e00c"
+}
+
+.sf-angle-o:before {
+    content: "\e00d"
+}
+
+.sf-ant:before {
+    content: "\e00e"
+}
+
+.sf-ant-o:before {
+    content: "\e00f"
+}
+
+.sf-apple:before {
+    content: "\e010"
+}
+
+.sf-apple-logo:before {
+    content: "\e011"
+}
+
+.sf-apple-o:before {
+    content: "\e012"
+}
+
+.sf-apps:before {
+    content: "\e013"
+}
+
+.sf-apps-o:before {
+    content: "\e014"
+}
+
+.sf-arrow-down:before {
+    content: "\e015"
+}
+
+.sf-arrow-left:before {
+    content: "\e016"
+}
+
+.sf-arrow-right:before {
+    content: "\e017"
+}
+
+.sf-arrow-up:before {
+    content: "\e018"
+}
+
+.sf-atom-1:before {
+    content: "\e019"
+}
+
+.sf-atom-1-o:before {
+    content: "\e01a"
+}
+
+.sf-atom-2:before {
+    content: "\e01b"
+}
+
+.sf-atom-2-o:before {
+    content: "\e01c"
+}
+
+.sf-avocado:before {
+    content: "\e01d"
+}
+
+.sf-avocado-o:before {
+    content: "\e01e"
+}
+
+.sf-badminton:before {
+    content: "\e01f"
+}
+
+.sf-badminton-o:before {
+    content: "\e020"
+}
+
+.sf-balloons:before {
+    content: "\e021"
+}
+
+.sf-balloons-o:before {
+    content: "\e022"
+}
+
+.sf-banana:before {
+    content: "\e023"
+}
+
+.sf-banana-o:before {
+    content: "\e024"
+}
+
+.sf-band-aid:before {
+    content: "\e025"
+}
+
+.sf-band-aid-o:before {
+    content: "\e026"
+}
+
+.sf-baseball:before {
+    content: "\e027"
+}
+
+.sf-baseball-o:before {
+    content: "\e028"
+}
+
+.sf-basket:before {
+    content: "\e029"
+}
+
+.sf-basket-o:before {
+    content: "\e02a"
+}
+
+.sf-basketball:before {
+    content: "\e02b"
+}
+
+.sf-basketball-o:before {
+    content: "\e02c"
+}
+
+.sf-bat:before {
+    content: "\e02d"
+}
+
+.sf-bat-o:before {
+    content: "\e02e"
+}
+
+.sf-bathtub:before {
+    content: "\e02f"
+}
+
+.sf-bathtub-o:before {
+    content: "\e030"
+}
+
+.sf-batman:before {
+    content: "\e031"
+}
+
+.sf-batman-o:before {
+    content: "\e032"
+}
+
+.sf-beach-ball:before {
+    content: "\e033"
+}
+
+.sf-beach-ball-o:before {
+    content: "\e034"
+}
+
+.sf-beaker:before {
+    content: "\e035"
+}
+
+.sf-beaker-o:before {
+    content: "\e036"
+}
+
+.sf-bear:before {
+    content: "\e037"
+}
+
+.sf-bear-o:before {
+    content: "\e038"
+}
+
+.sf-beating-heart:before {
+    content: "\e039"
+}
+
+.sf-beating-heart-o:before {
+    content: "\e03a"
+}
+
+.sf-bee:before {
+    content: "\e03b"
+}
+
+.sf-bee-o:before {
+    content: "\e03c"
+}
+
+.sf-beef:before {
+    content: "\e03d"
+}
+
+.sf-beef-o:before {
+    content: "\e03e"
+}
+
+.sf-beehive:before {
+    content: "\e03f"
+}
+
+.sf-beehive-o:before {
+    content: "\e040"
+}
+
+.sf-beer:before {
+    content: "\e041"
+}
+
+.sf-beer-o:before {
+    content: "\e042"
+}
+
+.sf-bell:before {
+    content: "\e043"
+}
+
+.sf-bell-o:before {
+    content: "\e044"
+}
+
+.sf-bike:before {
+    content: "\e045"
+}
+
+.sf-bike-o:before {
+    content: "\e046"
+}
+
+.sf-black-widow:before {
+    content: "\e047"
+}
+
+.sf-black-widow-o:before {
+    content: "\e048"
+}
+
+.sf-blimp:before {
+    content: "\e049"
+}
+
+.sf-blimp-o:before {
+    content: "\e04a"
+}
+
+.sf-blueberry:before {
+    content: "\e04b"
+}
+
+.sf-blueberry-o:before {
+    content: "\e04c"
+}
+
+.sf-boat:before {
+    content: "\e04d"
+}
+
+.sf-boat-o:before {
+    content: "\e04e"
+}
+
+.sf-bomb-1:before {
+    content: "\e04f"
+}
+
+.sf-bomb-1-o:before {
+    content: "\e050"
+}
+
+.sf-bookmark:before {
+    content: "\e051"
+}
+
+.sf-bookmark-o:before {
+    content: "\e052"
+}
+
+.sf-bow-and-arrow:before {
+    content: "\e053"
+}
+
+.sf-bow-and-arrow-o:before {
+    content: "\e054"
+}
+
+.sf-bowling:before {
+    content: "\e055"
+}
+
+.sf-bowling-o:before {
+    content: "\e056"
+}
+
+.sf-bread:before {
+    content: "\e057"
+}
+
+.sf-bread-o:before {
+    content: "\e058"
+}
+
+.sf-broccoli:before {
+    content: "\e059"
+}
+
+.sf-broccoli-o:before {
+    content: "\e05a"
+}
+
+.sf-broken-heart:before {
+    content: "\e05b"
+}
+
+.sf-broken-heart-o:before {
+    content: "\e05c"
+}
+
+.sf-brush:before {
+    content: "\e05d"
+}
+
+.sf-brush-o:before {
+    content: "\e05e"
+}
+
+.sf-building:before {
+    content: "\e05f"
+}
+
+.sf-building-o:before {
+    content: "\e060"
+}
+
+.sf-bus:before {
+    content: "\e061"
+}
+
+.sf-cactus:before {
+    content: "\e062"
+}
+
+.sf-cactus-o:before {
+    content: "\e063"
+}
+
+.sf-cake:before {
+    content: "\e064"
+}
+
+.sf-cake-o:before {
+    content: "\e065"
+}
+
+.sf-calculator:before {
+    content: "\e066"
+}
+
+.sf-calculator-o:before {
+    content: "\e067"
+}
+
+.sf-calendar:before {
+    content: "\e068"
+}
+
+.sf-calendar-o:before {
+    content: "\e069"
+}
+
+.sf-call:before {
+    content: "\e06a"
+}
+
+.sf-call-o:before {
+    content: "\e06b"
+}
+
+.sf-camera:before {
+    content: "\e06c"
+}
+
+.sf-camera-o:before {
+    content: "\e06d"
+}
+
+.sf-candy-cane:before {
+    content: "\e06e"
+}
+
+.sf-candy-cane-o:before {
+    content: "\e06f"
+}
+
+.sf-cannabis:before {
+    content: "\e070"
+}
+
+.sf-cannabis-o:before {
+    content: "\e071"
+}
+
+.sf-cappuccino:before {
+    content: "\e072"
+}
+
+.sf-cappuccino-o:before {
+    content: "\e073"
+}
+
+.sf-captain-america:before {
+    content: "\e074"
+}
+
+.sf-captain-america-o:before {
+    content: "\e075"
+}
+
+.sf-car:before {
+    content: "\e076"
+}
+
+.sf-carrot:before {
+    content: "\e077"
+}
+
+.sf-carrot-o:before {
+    content: "\e078"
+}
+
+.sf-cat:before {
+    content: "\e079"
+}
+
+.sf-cat-o:before {
+    content: "\e07a"
+}
+
+.sf-certificate:before {
+    content: "\e07b"
+}
+
+.sf-certificate-o:before {
+    content: "\e07c"
+}
+
+.sf-chair-1:before {
+    content: "\e07d"
+}
+
+.sf-chair-1-o:before {
+    content: "\e07e"
+}
+
+.sf-chat:before {
+    content: "\e07f"
+}
+
+.sf-chat-bubbles:before {
+    content: "\e080"
+}
+
+.sf-chat-bubbles-o:before {
+    content: "\e081"
+}
+
+.sf-chat-o:before {
+    content: "\e082"
+}
+
+.sf-check:before {
+    content: "\e083"
+}
+
+.sf-check-2:before {
+    content: "\e084"
+}
+
+.sf-check-2-o:before {
+    content: "\e085"
+}
+
+.sf-check-o:before {
+    content: "\e086"
+}
+
+.sf-cheers:before {
+    content: "\e087"
+}
+
+.sf-cheers-o:before {
+    content: "\e088"
+}
+
+.sf-cheese:before {
+    content: "\e089"
+}
+
+.sf-cheese-o:before {
+    content: "\e08a"
+}
+
+.sf-cherry:before {
+    content: "\e08b"
+}
+
+.sf-cherry-o:before {
+    content: "\e08c"
+}
+
+.sf-chevron-down:before {
+    content: "\e08d"
+}
+
+.sf-chevron-left:before {
+    content: "\e08e"
+}
+
+.sf-chevron-right:before {
+    content: "\e08f"
+}
+
+.sf-chevron-up:before {
+    content: "\e090"
+}
+
+.sf-chicken-leg:before {
+    content: "\e091"
+}
+
+.sf-chicken-leg-o:before {
+    content: "\e092"
+}
+
+.sf-chocolate:before {
+    content: "\e093"
+}
+
+.sf-chocolate-o:before {
+    content: "\e094"
+}
+
+.sf-chronometer:before {
+    content: "\e095"
+}
+
+.sf-chronometer-o:before {
+    content: "\e096"
+}
+
+.sf-cigarette:before {
+    content: "\e097"
+}
+
+.sf-cigarette-o:before {
+    content: "\e098"
+}
+
+.sf-circle:before {
+    content: "\e099"
+}
+
+.sf-circle-o:before {
+    content: "\e09a"
+}
+
+.sf-clock-1:before {
+    content: "\e09b"
+}
+
+.sf-clock-1-o:before {
+    content: "\e09c"
+}
+
+.sf-clock-2:before {
+    content: "\e09d"
+}
+
+.sf-clock-2-o:before {
+    content: "\e09e"
+}
+
+.sf-clock-3:before {
+    content: "\e09f"
+}
+
+.sf-clock-3-o:before {
+    content: "\e0a0"
+}
+
+.sf-cloud:before {
+    content: "\e0a1"
+}
+
+.sf-cloud-o:before {
+    content: "\e0a2"
+}
+
+.sf-clover:before {
+    content: "\e0a3"
+}
+
+.sf-clover-o:before {
+    content: "\e0a4"
+}
+
+.sf-coconut:before {
+    content: "\e0a5"
+}
+
+.sf-coconut-o:before {
+    content: "\e0a6"
+}
+
+.sf-code:before {
+    content: "\e0a7"
+}
+
+.sf-code-o:before {
+    content: "\e0a8"
+}
+
+.sf-coffee-1:before {
+    content: "\e0a9"
+}
+
+.sf-coffee-1-o:before {
+    content: "\e0aa"
+}
+
+.sf-coffee-2:before {
+    content: "\e0ab"
+}
+
+.sf-coffee-2-o:before {
+    content: "\e0ac"
+}
+
+.sf-cog:before {
+    content: "\e0ad"
+}
+
+.sf-cog-o:before {
+    content: "\e0ae"
+}
+
+.sf-compass:before {
+    content: "\e0af"
+}
+
+.sf-compass-o:before {
+    content: "\e0b0"
+}
+
+.sf-concrete-mixer:before {
+    content: "\e0b1"
+}
+
+.sf-confetti:before {
+    content: "\e0b2"
+}
+
+.sf-confetti-2:before {
+    content: "\e0b3"
+}
+
+.sf-confetti-2-o:before {
+    content: "\e0b4"
+}
+
+.sf-confetti-o:before {
+    content: "\e0b5"
+}
+
+.sf-constellation:before {
+    content: "\e0b6"
+}
+
+.sf-constellation-o:before {
+    content: "\e0b7"
+}
+
+.sf-cookies:before {
+    content: "\e0b8"
+}
+
+.sf-cookies-o:before {
+    content: "\e0b9"
+}
+
+.sf-corn:before {
+    content: "\e0ba"
+}
+
+.sf-corn-o:before {
+    content: "\e0bb"
+}
+
+.sf-cow:before {
+    content: "\e0bc"
+}
+
+.sf-cow-o:before {
+    content: "\e0bd"
+}
+
+.sf-crab:before {
+    content: "\e0be"
+}
+
+.sf-crab-o:before {
+    content: "\e0bf"
+}
+
+.sf-creative-commons:before {
+    content: "\e0c0"
+}
+
+.sf-creative-commons-o:before {
+    content: "\e0c1"
+}
+
+.sf-croissant:before {
+    content: "\e0c2"
+}
+
+.sf-croissant-o:before {
+    content: "\e0c3"
+}
+
+.sf-cross:before {
+    content: "\e0c4"
+}
+
+.sf-cross-2:before {
+    content: "\e0c5"
+}
+
+.sf-cross-2-o:before {
+    content: "\e0c6"
+}
+
+.sf-cross-o:before {
+    content: "\e0c7"
+}
+
+.sf-cross-round:before {
+    content: "\e0c8"
+}
+
+.sf-cross-round-o:before {
+    content: "\e0c9"
+}
+
+.sf-crown:before {
+    content: "\e0ca"
+}
+
+.sf-crown-o:before {
+    content: "\e0cb"
+}
+
+.sf-cupcake:before {
+    content: "\e0cc"
+}
+
+.sf-cupcake-o:before {
+    content: "\e0cd"
+}
+
+.sf-cursor:before {
+    content: "\e0ce"
+}
+
+.sf-cursor-o:before {
+    content: "\e0cf"
+}
+
+.sf-cutlery:before {
+    content: "\e0d0"
+}
+
+.sf-cutlery-o:before {
+    content: "\e0d1"
+}
+
+.sf-deadpool:before {
+    content: "\e0d2"
+}
+
+.sf-deadpool-o:before {
+    content: "\e0d3"
+}
+
+.sf-diamond:before {
+    content: "\e0d4"
+}
+
+.sf-diamond-o:before {
+    content: "\e0d5"
+}
+
+.sf-diary:before {
+    content: "\e0d6"
+}
+
+.sf-diary-o:before {
+    content: "\e0d7"
+}
+
+.sf-dog:before {
+    content: "\e0d8"
+}
+
+.sf-dog-o:before {
+    content: "\e0d9"
+}
+
+.sf-dolphin:before {
+    content: "\e0da"
+}
+
+.sf-dolphin-o:before {
+    content: "\e0db"
+}
+
+.sf-donut:before {
+    content: "\e0dc"
+}
+
+.sf-donut-o:before {
+    content: "\e0dd"
+}
+
+.sf-dragonfly:before {
+    content: "\e0de"
+}
+
+.sf-dragonfly-o:before {
+    content: "\e0df"
+}
+
+.sf-dropbox:before {
+    content: "\e0e0"
+}
+
+.sf-earth:before {
+    content: "\e0e1"
+}
+
+.sf-earth-o:before {
+    content: "\e0e2"
+}
+
+.sf-easter-egg:before {
+    content: "\e0e3"
+}
+
+.sf-easter-egg-o:before {
+    content: "\e0e4"
+}
+
+.sf-edit:before {
+    content: "\e0e5"
+}
+
+.sf-edit-o:before {
+    content: "\e0e6"
+}
+
+.sf-eiffel-tower:before {
+    content: "\e0e7"
+}
+
+.sf-eiffel-tower-o:before {
+    content: "\e0e8"
+}
+
+.sf-enter:before {
+    content: "\e0e9"
+}
+
+.sf-enter-o:before {
+    content: "\e0ea"
+}
+
+.sf-envelope-1:before {
+    content: "\e0eb"
+}
+
+.sf-envelope-1-o:before {
+    content: "\e0ec"
+}
+
+.sf-envelope-2:before {
+    content: "\e0ed"
+}
+
+.sf-envelope-2-o:before {
+    content: "\e0ee"
+}
+
+.sf-envelope-3:before {
+    content: "\e0ef"
+}
+
+.sf-envelope-3-o:before {
+    content: "\e0f0"
+}
+
+.sf-exclamation-mark:before {
+    content: "\e0f1"
+}
+
+.sf-exit:before {
+    content: "\e0f2"
+}
+
+.sf-exit-o:before {
+    content: "\e0f3"
+}
+
+.sf-eye:before {
+    content: "\e0f4"
+}
+
+.sf-eye-o:before {
+    content: "\e0f5"
+}
+
+.sf-facebook:before {
+    content: "\e0f6"
+}
+
+.sf-factory:before {
+    content: "\e0f7"
+}
+
+.sf-factory-o:before {
+    content: "\e0f8"
+}
+
+.sf-feather:before {
+    content: "\e0f9"
+}
+
+.sf-feather-o:before {
+    content: "\e0fa"
+}
+
+.sf-film:before {
+    content: "\e0fb"
+}
+
+.sf-film-o:before {
+    content: "\e0fc"
+}
+
+.sf-fish-1:before {
+    content: "\e0fd"
+}
+
+.sf-fish-1-o:before {
+    content: "\e0fe"
+}
+
+.sf-fish-bones:before {
+    content: "\e0ff"
+}
+
+.sf-fish-bones-o:before {
+    content: "\e100"
+}
+
+.sf-flash:before {
+    content: "\e101"
+}
+
+.sf-flash-o:before {
+    content: "\e102"
+}
+
+.sf-flower-1:before {
+    content: "\e103"
+}
+
+.sf-flower-1-o:before {
+    content: "\e104"
+}
+
+.sf-font:before {
+    content: "\e105"
+}
+
+.sf-football:before {
+    content: "\e106"
+}
+
+.sf-football-o:before {
+    content: "\e107"
+}
+
+.sf-forbidden:before {
+    content: "\e108"
+}
+
+.sf-forbidden-o:before {
+    content: "\e109"
+}
+
+.sf-fox:before {
+    content: "\e10a"
+}
+
+.sf-fox-o:before {
+    content: "\e10b"
+}
+
+.sf-fries:before {
+    content: "\e10c"
+}
+
+.sf-fries-o:before {
+    content: "\e10d"
+}
+
+.sf-frog:before {
+    content: "\e10e"
+}
+
+.sf-frog-o:before {
+    content: "\e10f"
+}
+
+.sf-gameboy:before {
+    content: "\e110"
+}
+
+.sf-gameboy-o:before {
+    content: "\e111"
+}
+
+.sf-gift:before {
+    content: "\e112"
+}
+
+.sf-gift-o:before {
+    content: "\e113"
+}
+
+.sf-globe-1:before {
+    content: "\e114"
+}
+
+.sf-globe-1-o:before {
+    content: "\e115"
+}
+
+.sf-google-plus:before {
+    content: "\e116"
+}
+
+.sf-graduation-cap:before {
+    content: "\e117"
+}
+
+.sf-graduation-cap-o:before {
+    content: "\e118"
+}
+
+.sf-grapes:before {
+    content: "\e119"
+}
+
+.sf-grapes-o:before {
+    content: "\e11a"
+}
+
+.sf-graph-1:before {
+    content: "\e11b"
+}
+
+.sf-graph-1-o:before {
+    content: "\e11c"
+}
+
+.sf-graph-2:before {
+    content: "\e11d"
+}
+
+.sf-graph-2-o:before {
+    content: "\e11e"
+}
+
+.sf-graph-3:before {
+    content: "\e11f"
+}
+
+.sf-graph-3-o:before {
+    content: "\e120"
+}
+
+.sf-graph-4:before {
+    content: "\e121"
+}
+
+.sf-graph-4-o:before {
+    content: "\e122"
+}
+
+.sf-group-1:before {
+    content: "\e123"
+}
+
+.sf-group-1-o:before {
+    content: "\e124"
+}
+
+.sf-hairdryer:before {
+    content: "\e125"
+}
+
+.sf-hairdryer-o:before {
+    content: "\e126"
+}
+
+.sf-hamburger:before {
+    content: "\e127"
+}
+
+.sf-hamburger-o:before {
+    content: "\e128"
+}
+
+.sf-heart:before {
+    content: "\e129"
+}
+
+.sf-heart-2:before {
+    content: "\e12a"
+}
+
+.sf-heart-2-o:before {
+    content: "\e12b"
+}
+
+.sf-heart-o:before {
+    content: "\e12c"
+}
+
+.sf-helicopter:before {
+    content: "\e12d"
+}
+
+.sf-helicopter-o:before {
+    content: "\e12e"
+}
+
+.sf-helm:before {
+    content: "\e12f"
+}
+
+.sf-helm-o:before {
+    content: "\e130"
+}
+
+.sf-home:before {
+    content: "\e131"
+}
+
+.sf-home-o:before {
+    content: "\e132"
+}
+
+.sf-hook:before {
+    content: "\e133"
+}
+
+.sf-hook-o:before {
+    content: "\e134"
+}
+
+.sf-hot-air-balloon:before {
+    content: "\e135"
+}
+
+.sf-hot-air-balloon-o:before {
+    content: "\e136"
+}
+
+.sf-hotdog:before {
+    content: "\e137"
+}
+
+.sf-hotdog-o:before {
+    content: "\e138"
+}
+
+.sf-ice-cream:before {
+    content: "\e139"
+}
+
+.sf-ice-cream-o:before {
+    content: "\e13a"
+}
+
+.sf-ice-skating:before {
+    content: "\e13b"
+}
+
+.sf-ice-skating-o:before {
+    content: "\e13c"
+}
+
+.sf-instagram:before {
+    content: "\e13d"
+}
+
+.sf-iron:before {
+    content: "\e13e"
+}
+
+.sf-iron-man:before {
+    content: "\e13f"
+}
+
+.sf-iron-man-o:before {
+    content: "\e140"
+}
+
+.sf-iron-o:before {
+    content: "\e141"
+}
+
+.sf-jackolantern:before {
+    content: "\e142"
+}
+
+.sf-jackolantern-o:before {
+    content: "\e143"
+}
+
+.sf-jellyfish:before {
+    content: "\e144"
+}
+
+.sf-jellyfish-o:before {
+    content: "\e145"
+}
+
+.sf-juice:before {
+    content: "\e146"
+}
+
+.sf-juice-o:before {
+    content: "\e147"
+}
+
+.sf-jupiter:before {
+    content: "\e148"
+}
+
+.sf-jupiter-o:before {
+    content: "\e149"
+}
+
+.sf-kite:before {
+    content: "\e14a"
+}
+
+.sf-kite-o:before {
+    content: "\e14b"
+}
+
+.sf-knife:before {
+    content: "\e14c"
+}
+
+.sf-knife-o:before {
+    content: "\e14d"
+}
+
+.sf-ladybug:before {
+    content: "\e14e"
+}
+
+.sf-ladybug-o:before {
+    content: "\e14f"
+}
+
+.sf-leaf-1:before {
+    content: "\e150"
+}
+
+.sf-leaf-1-o:before {
+    content: "\e151"
+}
+
+.sf-leaf-2:before {
+    content: "\e152"
+}
+
+.sf-leaf-2-o:before {
+    content: "\e153"
+}
+
+.sf-liberty:before {
+    content: "\e154"
+}
+
+.sf-liberty-o:before {
+    content: "\e155"
+}
+
+.sf-lightbulb:before {
+    content: "\e156"
+}
+
+.sf-lightbulb-o:before {
+    content: "\e157"
+}
+
+.sf-link-1:before {
+    content: "\e158"
+}
+
+.sf-link-1-o:before {
+    content: "\e159"
+}
+
+.sf-link-2:before {
+    content: "\e15a"
+}
+
+.sf-link-2-o:before {
+    content: "\e15b"
+}
+
+.sf-linkedin:before {
+    content: "\e15c"
+}
+
+.sf-lion:before {
+    content: "\e15d"
+}
+
+.sf-lion-o:before {
+    content: "\e15e"
+}
+
+.sf-list:before {
+    content: "\e15f"
+}
+
+.sf-list-o:before {
+    content: "\e160"
+}
+
+.sf-location:before {
+    content: "\e161"
+}
+
+.sf-location-o:before {
+    content: "\e162"
+}
+
+.sf-lock:before {
+    content: "\e163"
+}
+
+.sf-lock-o:before {
+    content: "\e164"
+}
+
+.sf-lollipop:before {
+    content: "\e165"
+}
+
+.sf-lollipop-o:before {
+    content: "\e166"
+}
+
+.sf-magic-wand:before {
+    content: "\e167"
+}
+
+.sf-magic-wand-o:before {
+    content: "\e168"
+}
+
+.sf-magnet:before {
+    content: "\e169"
+}
+
+.sf-magnet-o:before {
+    content: "\e16a"
+}
+
+.sf-martini:before {
+    content: "\e16b"
+}
+
+.sf-martini-o:before {
+    content: "\e16c"
+}
+
+.sf-megaphone-1:before {
+    content: "\e16d"
+}
+
+.sf-megaphone-1-o:before {
+    content: "\e16e"
+}
+
+.sf-megaphone-2:before {
+    content: "\e16f"
+}
+
+.sf-megaphone-2-o:before {
+    content: "\e170"
+}
+
+.sf-menu:before {
+    content: "\e171"
+}
+
+.sf-menu-o:before {
+    content: "\e172"
+}
+
+.sf-mic:before {
+    content: "\e173"
+}
+
+.sf-mic-o:before {
+    content: "\e174"
+}
+
+.sf-milk:before {
+    content: "\e175"
+}
+
+.sf-milk-o:before {
+    content: "\e176"
+}
+
+.sf-money-1:before {
+    content: "\e177"
+}
+
+.sf-money-1-o:before {
+    content: "\e178"
+}
+
+.sf-money-2:before {
+    content: "\e179"
+}
+
+.sf-money-2-o:before {
+    content: "\e17a"
+}
+
+.sf-money-3:before {
+    content: "\e17b"
+}
+
+.sf-money-3-o:before {
+    content: "\e17c"
+}
+
+.sf-monkey:before {
+    content: "\e17d"
+}
+
+.sf-monkey-o:before {
+    content: "\e17e"
+}
+
+.sf-moon-1:before {
+    content: "\e17f"
+}
+
+.sf-moon-1-o:before {
+    content: "\e180"
+}
+
+.sf-moon-2:before {
+    content: "\e181"
+}
+
+.sf-moon-2-o:before {
+    content: "\e182"
+}
+
+.sf-more:before {
+    content: "\e183"
+}
+
+.sf-more-o:before {
+    content: "\e184"
+}
+
+.sf-mouse:before {
+    content: "\e185"
+}
+
+.sf-mouse-1:before {
+    content: "\e186"
+}
+
+.sf-mouse-1-o:before {
+    content: "\e187"
+}
+
+.sf-mouse-o:before {
+    content: "\e188"
+}
+
+.sf-mushroom:before {
+    content: "\e189"
+}
+
+.sf-mushroom-o:before {
+    content: "\e18a"
+}
+
+.sf-mustache:before {
+    content: "\e18b"
+}
+
+.sf-mustache-o:before {
+    content: "\e18c"
+}
+
+.sf-mute:before {
+    content: "\e18d"
+}
+
+.sf-mute-o:before {
+    content: "\e18e"
+}
+
+.sf-navigation:before {
+    content: "\e18f"
+}
+
+.sf-navigation-o:before {
+    content: "\e190"
+}
+
+.sf-new-label:before {
+    content: "\e191"
+}
+
+.sf-new-label-o:before {
+    content: "\e192"
+}
+
+.sf-nuke:before {
+    content: "\e193"
+}
+
+.sf-nuke-o:before {
+    content: "\e194"
+}
+
+.sf-onigiri:before {
+    content: "\e195"
+}
+
+.sf-onigiri-o:before {
+    content: "\e196"
+}
+
+.sf-onion:before {
+    content: "\e197"
+}
+
+.sf-onion-o:before {
+    content: "\e198"
+}
+
+.sf-options:before {
+    content: "\e199"
+}
+
+.sf-options-o:before {
+    content: "\e19a"
+}
+
+.sf-orange:before {
+    content: "\e19b"
+}
+
+.sf-orange-o:before {
+    content: "\e19c"
+}
+
+.sf-owl:before {
+    content: "\e19d"
+}
+
+.sf-owl-o:before {
+    content: "\e19e"
+}
+
+.sf-pacman:before {
+    content: "\e19f"
+}
+
+.sf-pacman-o:before {
+    content: "\e1a0"
+}
+
+.sf-palette:before {
+    content: "\e1a1"
+}
+
+.sf-palette-o:before {
+    content: "\e1a2"
+}
+
+.sf-pan:before {
+    content: "\e1a3"
+}
+
+.sf-pan-o:before {
+    content: "\e1a4"
+}
+
+.sf-panda:before {
+    content: "\e1a5"
+}
+
+.sf-panda-o:before {
+    content: "\e1a6"
+}
+
+.sf-paper-plane:before {
+    content: "\e1a7"
+}
+
+.sf-paper-plane-o:before {
+    content: "\e1a8"
+}
+
+.sf-paperclip:before {
+    content: "\e1a9"
+}
+
+.sf-paperclip-o:before {
+    content: "\e1aa"
+}
+
+.sf-parrot:before {
+    content: "\e1ab"
+}
+
+.sf-parrot-o:before {
+    content: "\e1ac"
+}
+
+.sf-peace:before {
+    content: "\e1ad"
+}
+
+.sf-peace-o:before {
+    content: "\e1ae"
+}
+
+.sf-pear:before {
+    content: "\e1af"
+}
+
+.sf-pear-o:before {
+    content: "\e1b0"
+}
+
+.sf-pen-and-pencil:before {
+    content: "\e1b1"
+}
+
+.sf-pen-and-pencil-o:before {
+    content: "\e1b2"
+}
+
+.sf-pencil:before {
+    content: "\e1b3"
+}
+
+.sf-pencil-and-ruler:before {
+    content: "\e1b4"
+}
+
+.sf-pencil-and-ruler-o:before {
+    content: "\e1b5"
+}
+
+.sf-pencil-cup:before {
+    content: "\e1b6"
+}
+
+.sf-pencil-cup-o:before {
+    content: "\e1b7"
+}
+
+.sf-pencil-o:before {
+    content: "\e1b8"
+}
+
+.sf-pencils:before {
+    content: "\e1b9"
+}
+
+.sf-pencils-o:before {
+    content: "\e1ba"
+}
+
+.sf-pens:before {
+    content: "\e1bb"
+}
+
+.sf-pens-o:before {
+    content: "\e1bc"
+}
+
+.sf-phone:before {
+    content: "\e1bd"
+}
+
+.sf-phone-o:before {
+    content: "\e1be"
+}
+
+.sf-pickup-truck:before {
+    content: "\e1bf"
+}
+
+.sf-picture:before {
+    content: "\e1c0"
+}
+
+.sf-picture-o:before {
+    content: "\e1c1"
+}
+
+.sf-pie:before {
+    content: "\e1c2"
+}
+
+.sf-pie-chart:before {
+    content: "\e1c3"
+}
+
+.sf-pie-chart-o:before {
+    content: "\e1c4"
+}
+
+.sf-pie-o:before {
+    content: "\e1c5"
+}
+
+.sf-pig:before {
+    content: "\e1c6"
+}
+
+.sf-pig-o:before {
+    content: "\e1c7"
+}
+
+.sf-pineapple:before {
+    content: "\e1c8"
+}
+
+.sf-pineapple-o:before {
+    content: "\e1c9"
+}
+
+.sf-pinterest:before {
+    content: "\e1ca"
+}
+
+.sf-pipe:before {
+    content: "\e1cb"
+}
+
+.sf-pipe-o:before {
+    content: "\e1cc"
+}
+
+.sf-pistol:before {
+    content: "\e1cd"
+}
+
+.sf-pistol-o:before {
+    content: "\e1ce"
+}
+
+.sf-playstation:before {
+    content: "\e1cf"
+}
+
+.sf-plug:before {
+    content: "\e1d0"
+}
+
+.sf-plug-o:before {
+    content: "\e1d1"
+}
+
+.sf-plus:before {
+    content: "\e1d2"
+}
+
+.sf-plus-2:before {
+    content: "\e1d3"
+}
+
+.sf-plus-2-o:before {
+    content: "\e1d4"
+}
+
+.sf-plus-o:before {
+    content: "\e1d5"
+}
+
+.sf-plus-round:before {
+    content: "\e1d6"
+}
+
+.sf-plus-round-o:before {
+    content: "\e1d7"
+}
+
+.sf-poet:before {
+    content: "\e1d8"
+}
+
+.sf-poet-o:before {
+    content: "\e1d9"
+}
+
+.sf-police:before {
+    content: "\e1da"
+}
+
+.sf-power:before {
+    content: "\e1db"
+}
+
+.sf-power-o:before {
+    content: "\e1dc"
+}
+
+.sf-prawn:before {
+    content: "\e1dd"
+}
+
+.sf-prawn-o:before {
+    content: "\e1de"
+}
+
+.sf-punisher:before {
+    content: "\e1df"
+}
+
+.sf-punisher-o:before {
+    content: "\e1e0"
+}
+
+.sf-push-pin:before {
+    content: "\e1e1"
+}
+
+.sf-push-pin-o:before {
+    content: "\e1e2"
+}
+
+.sf-puzzle:before {
+    content: "\e1e3"
+}
+
+.sf-puzzle-o:before {
+    content: "\e1e4"
+}
+
+.sf-pyramids:before {
+    content: "\e1e5"
+}
+
+.sf-pyramids-o:before {
+    content: "\e1e6"
+}
+
+.sf-question-mark:before {
+    content: "\e1e7"
+}
+
+.sf-rainbow:before {
+    content: "\e1e8"
+}
+
+.sf-rainbow-o:before {
+    content: "\e1e9"
+}
+
+.sf-raspberry:before {
+    content: "\e1ea"
+}
+
+.sf-raspberry-o:before {
+    content: "\e1eb"
+}
+
+.sf-rat:before {
+    content: "\e1ec"
+}
+
+.sf-rat-o:before {
+    content: "\e1ed"
+}
+
+.sf-reblog:before {
+    content: "\e1ee"
+}
+
+.sf-reblog-o:before {
+    content: "\e1ef"
+}
+
+.sf-receive:before {
+    content: "\e1f0"
+}
+
+.sf-receive-o:before {
+    content: "\e1f1"
+}
+
+.sf-recycle:before {
+    content: "\e1f2"
+}
+
+.sf-recycle-o:before {
+    content: "\e1f3"
+}
+
+.sf-refresh:before {
+    content: "\e1f4"
+}
+
+.sf-refresh-o:before {
+    content: "\e1f5"
+}
+
+.sf-ribbon:before {
+    content: "\e1f6"
+}
+
+.sf-ribbon-o:before {
+    content: "\e1f7"
+}
+
+.sf-rocket:before {
+    content: "\e1f8"
+}
+
+.sf-rocket-o:before {
+    content: "\e1f9"
+}
+
+.sf-rss:before {
+    content: "\e1fa"
+}
+
+.sf-rulers:before {
+    content: "\e1fb"
+}
+
+.sf-rulers-o:before {
+    content: "\e1fc"
+}
+
+.sf-sale:before {
+    content: "\e1fd"
+}
+
+.sf-sale-o:before {
+    content: "\e1fe"
+}
+
+.sf-sand-clock:before {
+    content: "\e1ff"
+}
+
+.sf-sand-clock-o:before {
+    content: "\e200"
+}
+
+.sf-saturn:before {
+    content: "\e201"
+}
+
+.sf-save:before {
+    content: "\e202"
+}
+
+.sf-save-o:before {
+    content: "\e203"
+}
+
+.sf-savings:before {
+    content: "\e204"
+}
+
+.sf-savings-o:before {
+    content: "\e205"
+}
+
+.sf-scale:before {
+    content: "\e206"
+}
+
+.sf-scale-o:before {
+    content: "\e207"
+}
+
+.sf-scooter:before {
+    content: "\e208"
+}
+
+.sf-scooter-o:before {
+    content: "\e209"
+}
+
+.sf-screen:before {
+    content: "\e20a"
+}
+
+.sf-screen-o:before {
+    content: "\e20b"
+}
+
+.sf-search:before {
+    content: "\e20c"
+}
+
+.sf-search-o:before {
+    content: "\e20d"
+}
+
+.sf-seashell:before {
+    content: "\e20e"
+}
+
+.sf-seashell-o:before {
+    content: "\e20f"
+}
+
+.sf-send:before {
+    content: "\e210"
+}
+
+.sf-send-o:before {
+    content: "\e211"
+}
+
+.sf-share:before {
+    content: "\e212"
+}
+
+.sf-share-o:before {
+    content: "\e213"
+}
+
+.sf-sheep:before {
+    content: "\e214"
+}
+
+.sf-sheep-o:before {
+    content: "\e215"
+}
+
+.sf-shell:before {
+    content: "\e216"
+}
+
+.sf-shell-o:before {
+    content: "\e217"
+}
+
+.sf-sheriff:before {
+    content: "\e218"
+}
+
+.sf-sheriff-o:before {
+    content: "\e219"
+}
+
+.sf-ship:before {
+    content: "\e21a"
+}
+
+.sf-ship-o:before {
+    content: "\e21b"
+}
+
+.sf-shirt:before {
+    content: "\e21c"
+}
+
+.sf-shirt-o:before {
+    content: "\e21d"
+}
+
+.sf-shopping-cart:before {
+    content: "\e21e"
+}
+
+.sf-shopping-cart-o:before {
+    content: "\e21f"
+}
+
+.sf-shovel:before {
+    content: "\e220"
+}
+
+.sf-shovel-o:before {
+    content: "\e221"
+}
+
+.sf-skull-1:before {
+    content: "\e222"
+}
+
+.sf-skull-1-o:before {
+    content: "\e223"
+}
+
+.sf-skull-2:before {
+    content: "\e224"
+}
+
+.sf-skull-2-o:before {
+    content: "\e225"
+}
+
+.sf-skype:before {
+    content: "\e226"
+}
+
+.sf-smiley:before {
+    content: "\e227"
+}
+
+.sf-smiley-o:before {
+    content: "\e228"
+}
+
+.sf-soccer:before {
+    content: "\e229"
+}
+
+.sf-soccer-o:before {
+    content: "\e22a"
+}
+
+.sf-socket:before {
+    content: "\e22b"
+}
+
+.sf-socket-o:before {
+    content: "\e22c"
+}
+
+.sf-sound:before {
+    content: "\e22d"
+}
+
+.sf-sound-o:before {
+    content: "\e22e"
+}
+
+.sf-spider:before {
+    content: "\e22f"
+}
+
+.sf-spider-o:before {
+    content: "\e230"
+}
+
+.sf-spiderman:before {
+    content: "\e231"
+}
+
+.sf-spiderman-o:before {
+    content: "\e232"
+}
+
+.sf-stamp:before {
+    content: "\e233"
+}
+
+.sf-stamp-o:before {
+    content: "\e234"
+}
+
+.sf-star:before {
+    content: "\e235"
+}
+
+.sf-star-o:before {
+    content: "\e236"
+}
+
+.sf-starfish:before {
+    content: "\e237"
+}
+
+.sf-starfish-o:before {
+    content: "\e238"
+}
+
+.sf-stars:before {
+    content: "\e239"
+}
+
+.sf-stars-o:before {
+    content: "\e23a"
+}
+
+.sf-strawberry:before {
+    content: "\e23b"
+}
+
+.sf-strawberry-o:before {
+    content: "\e23c"
+}
+
+.sf-submarine:before {
+    content: "\e23d"
+}
+
+.sf-sun-1:before {
+    content: "\e23e"
+}
+
+.sf-sun-1-o:before {
+    content: "\e23f"
+}
+
+.sf-swimming:before {
+    content: "\e240"
+}
+
+.sf-switch:before {
+    content: "\e241"
+}
+
+.sf-switch-o:before {
+    content: "\e242"
+}
+
+.sf-sword:before {
+    content: "\e243"
+}
+
+.sf-sword-o:before {
+    content: "\e244"
+}
+
+.sf-swords:before {
+    content: "\e245"
+}
+
+.sf-swords-o:before {
+    content: "\e246"
+}
+
+.sf-table-tennis:before {
+    content: "\e247"
+}
+
+.sf-table-tennis-o:before {
+    content: "\e248"
+}
+
+.sf-tag:before {
+    content: "\e249"
+}
+
+.sf-tag-o:before {
+    content: "\e24a"
+}
+
+.sf-tags:before {
+    content: "\e24b"
+}
+
+.sf-tags-o:before {
+    content: "\e24c"
+}
+
+.sf-target:before {
+    content: "\e24d"
+}
+
+.sf-target-o:before {
+    content: "\e24e"
+}
+
+.sf-taxi:before {
+    content: "\e24f"
+}
+
+.sf-tennis-ball:before {
+    content: "\e250"
+}
+
+.sf-tennis-ball-o:before {
+    content: "\e251"
+}
+
+.sf-thor:before {
+    content: "\e252"
+}
+
+.sf-thor-o:before {
+    content: "\e253"
+}
+
+.sf-tiger:before {
+    content: "\e254"
+}
+
+.sf-tiger-o:before {
+    content: "\e255"
+}
+
+.sf-toast:before {
+    content: "\e256"
+}
+
+.sf-toast-o:before {
+    content: "\e257"
+}
+
+.sf-toilet:before {
+    content: "\e258"
+}
+
+.sf-toilet-o:before {
+    content: "\e259"
+}
+
+.sf-toilet-paper:before {
+    content: "\e25a"
+}
+
+.sf-toilet-paper-o:before {
+    content: "\e25b"
+}
+
+.sf-tomato:before {
+    content: "\e25c"
+}
+
+.sf-tomato-o:before {
+    content: "\e25d"
+}
+
+.sf-tools:before {
+    content: "\e25e"
+}
+
+.sf-tools-o:before {
+    content: "\e25f"
+}
+
+.sf-tractor:before {
+    content: "\e260"
+}
+
+.sf-tractor-o:before {
+    content: "\e261"
+}
+
+.sf-traffic-light:before {
+    content: "\e262"
+}
+
+.sf-traffic-light-o:before {
+    content: "\e263"
+}
+
+.sf-train:before {
+    content: "\e264"
+}
+
+.sf-trash:before {
+    content: "\e265"
+}
+
+.sf-trash-o:before {
+    content: "\e266"
+}
+
+.sf-trophy:before {
+    content: "\e267"
+}
+
+.sf-trophy-o:before {
+    content: "\e268"
+}
+
+.sf-tulip:before {
+    content: "\e269"
+}
+
+.sf-tulip-o:before {
+    content: "\e26a"
+}
+
+.sf-tumblr:before {
+    content: "\e26b"
+}
+
+.sf-turtle:before {
+    content: "\e26c"
+}
+
+.sf-turtle-o:before {
+    content: "\e26d"
+}
+
+.sf-tv:before {
+    content: "\e26e"
+}
+
+.sf-tv-o:before {
+    content: "\e26f"
+}
+
+.sf-twitter:before {
+    content: "\e270"
+}
+
+.sf-ufo:before {
+    content: "\e271"
+}
+
+.sf-ufo-o:before {
+    content: "\e272"
+}
+
+.sf-umbrella:before {
+    content: "\e273"
+}
+
+.sf-umbrella-o:before {
+    content: "\e274"
+}
+
+.sf-user:before {
+    content: "\e275"
+}
+
+.sf-user-o:before {
+    content: "\e276"
+}
+
+.sf-video:before {
+    content: "\e277"
+}
+
+.sf-video-o:before {
+    content: "\e278"
+}
+
+.sf-vimeo:before {
+    content: "\e279"
+}
+
+.sf-volleyball:before {
+    content: "\e27a"
+}
+
+.sf-volleyball-o:before {
+    content: "\e27b"
+}
+
+.sf-warning:before {
+    content: "\e27c"
+}
+
+.sf-warning-o:before {
+    content: "\e27d"
+}
+
+.sf-washing-machine:before {
+    content: "\e27e"
+}
+
+.sf-washing-machine-o:before {
+    content: "\e27f"
+}
+
+.sf-watch:before {
+    content: "\e280"
+}
+
+.sf-watch-o:before {
+    content: "\e281"
+}
+
+.sf-water-bottle:before {
+    content: "\e282"
+}
+
+.sf-water-bottle-o:before {
+    content: "\e283"
+}
+
+.sf-watermelon:before {
+    content: "\e284"
+}
+
+.sf-watermelon-o:before {
+    content: "\e285"
+}
+
+.sf-webcam:before {
+    content: "\e286"
+}
+
+.sf-webcam-o:before {
+    content: "\e287"
+}
+
+.sf-whale:before {
+    content: "\e288"
+}
+
+.sf-whale-o:before {
+    content: "\e289"
+}
+
+.sf-wheat:before {
+    content: "\e28a"
+}
+
+.sf-wheat-o:before {
+    content: "\e28b"
+}
+
+.sf-wheelchair:before {
+    content: "\e28c"
+}
+
+.sf-wheelchair-o:before {
+    content: "\e28d"
+}
+
+.sf-wine:before {
+    content: "\e28e"
+}
+
+.sf-wine-o:before {
+    content: "\e28f"
+}
+
+.sf-wolverine:before {
+    content: "\e290"
+}
+
+.sf-wolverine-o:before {
+    content: "\e291"
+}
+
+.sf-wonder-woman:before {
+    content: "\e292"
+}
+
+.sf-wonder-woman-o:before {
+    content: "\e293"
+}
+
+.sf-wool:before {
+    content: "\e294"
+}
+
+.sf-wool-o:before {
+    content: "\e295"
+}
+
+.sf-wrench:before {
+    content: "\e296"
+}
+
+.sf-wrench-1:before {
+    content: "\e297"
+}
+
+.sf-wrench-1-o:before {
+    content: "\e298"
+}
+
+.sf-wrench-o:before {
+    content: "\e299"
+}
+
+.sf-write:before {
+    content: "\e29a"
+}
+
+.sf-write-o:before {
+    content: "\e29b"
+}
+
+.sf-xmen:before {
+    content: "\e29c"
+}
+
+.sf-xmen-o:before {
+    content: "\e29d"
+}
+
+.sf-yin-yang:before {
+    content: "\e29e"
+}
+
+.sf-yin-yang-o:before {
+    content: "\e29f"
+}
+
+.sf-youtube:before {
+    content: "\e2a0"
+}
+
+.sf-quotation-mark:before {
+    content: "\e2a1"
+}
+
+.sf-pisa-tower:before {
+    content: "\e2a2"
+}
+
+.sf-monas:before {
+    content: "\e2a3"
+}
+
+.sf-kremlin:before {
+    content: "\e2a4"
+}
+
+.sf-great-wall:before {
+    content: "\e2a5"
+}
+
+.sf-forbidden-city:before {
+    content: "\e2a6"
+}
+
+.sf-big-ben:before {
+    content: "\e2a7"
+}
+
+.sf-bnha-ua:before {
+    content: "\e2a8";
+}
+
+.sf-merlion:before {
+    content: "\e2a9";
+}
+
+.sf-pokeball:before {
+    content: "\e2aa";
+}
+
+.sf-pikachu:before {
+    content: "\e2ab";
+}
+
+.sf-starfleet-insignia:before {
+    content: "\e2ac";
+}
+
+.sf-starfleet-insignia-o:before {
+    content: "\e2ad";
+}
+
+.sf-superman-o:before {
+    content: "\e2ae";
+}
+
+.sf-superman:before {
+    content: "\e2af";
+}
+
+.sf-peach-o:before {
+    content: "\e2b0";
+}
+
+.sf-peach:before {
+    content: "\e2b1";
+}
+
+.sf-music-note-o:before {
+    content: "\e2b2";
+}
+
+.sf-music-note:before {
+    content: "\e2b3";
+}
+
+.sf-mu-greek:before {
+    content: "\e2b4";
+}
+
+.sf-gaming-controller:before {
+    content: "\e2b5";
+}
+
+.sf-gaming-controller-o:before {
+    content: "\e2b7";
+}
+
+.sf-books:before {
+    content: "\e2b6";
+}
+
+.sf-book-o:before {
+    content: "\e2b8";
+}
+
+.sf-book:before {
+    content: "\e2b9";
+}
+
+.sf-spades-o:before {
+    content: "\e2ba";
+}
+
+.sf-spades:before {
+    content: "\e2bb";
+}
+
+.sf-hearts-o:before {
+    content: "\e2bc";
+}
+
+.sf-hearts:before {
+    content: "\e2bd";
+}
+
+.sf-diamonds-o:before {
+    content: "\e2be";
+}
+
+.sf-diamonds:before {
+    content: "\e2bf";
+}
+
+.sf-clubs-o:before {
+    content: "\e2c0";
+}
+
+.sf-clubs:before {
+    content: "\e2c1";
+}
+
+.sf-deck:before {
+    content: "\e2c2";
+}
+
+.sf-deck-o:before {
+    content: "\e2c3";
+}
+
+.sf-avengers:before {
+    content: "\e2c4";
+}
+
+.sf-avengers-o:before {
+    content: "\e2c5";
+}
+
+.sf-dc-comics:before {
+    content: "\e2c6";
+}
+
+.sf-justice-league:before {
+    content: "\e2c7";
+}
+
+.sf-marvel:before {
+    content: "\e2c8";
+}
+
+.sf-etsy:before {
+    content: "\e2c9";
+}
+
+.sf-etsy-o:before {
+    content: "\e2ca";
+}
+
+.sf-unicorn-o:before {
+    content: "\e2cb";
+}
+
+.sf-unicorn:before {
+    content: "\e2cc";
+}
+
+.sf-hourglass-o:before {
+    content: "\e2cd";
+}
+
+.sf-hourglass:before {
+    content: "\e2ce";
+}
+
+.sf-eye-of-horus:before {
+    content: "\e2cf";
+}
+
+.sf-hummingbird-o:before {
+    content: "\e2d0";
+}
+
+.sf-hummingbird:before {
+    content: "\e2d1";
+}
+
+.sf-orca:before {
+    content: "\e2d2";
+}
+
+.sf-baelish:before {
+    content: "\e2d3";
+}
+
+.sf-black-panther:before {
+    content: "\e2d4";
+}
+
+.sf-arryn:before {
+    content: "\e2d5";
+}
+
+.sf-baratheon:before {
+    content: "\e2d6";
+}
+
+.sf-greyjoy:before {
+    content: "\e2d7";
+}
+
+.sf-frey:before {
+    content: "\e2d8";
+}
+
+.sf-lannister:before {
+    content: "\e2d9";
+}
+
+.sf-martell:before {
+    content: "\e2da";
+}
+
+.sf-mormont:before {
+    content: "\e2db";
+}
+
+.sf-stark:before {
+    content: "\e2dc";
+}
+
+.sf-targaryen:before {
+    content: "\e2dd";
+}
+
+.sf-tyrell:before {
+    content: "\e2de";
+}
+
+.sf-tully:before {
+    content: "\e2df";
+}
+
+.sf-battery-empty:before {
+    content: "\e2e0";
+}
+
+.sf-battery-full:before {
+    content: "\e2e1";
+}
+
+.sf-battery-half:before {
+    content: "\e2e2";
+}
+
+.sf-battery-low:before {
+    content: "\e2e3";
+}
+
+.sf-discord:before {
+    content: "\e2e4";
+}
+
+.sf-emu:before {
+    content: "\e2e5";
+}
+
+.sf-first-order:before {
+    content: "\e2e6";
+}
+
+.sf-filter-o:before {
+    content: "\e2e7";
+}
+
+.sf-filter:before {
+    content: "\e2e8";
+}
+
+.sf-galactic-empire:before {
+    content: "\e2e9";
+}
+
+.sf-galactic-republic:before {
+    content: "\e2ea";
+}
+
+.sf-harry-potter-1:before {
+    content: "\e2eb";
+}
+
+.sf-harry-potter-2:before {
+    content: "\e2ec";
+}
+
+.sf-harry-potter-3:before {
+    content: "\e2ed";
+}
+
+.sf-jedi-order:before {
+    content: "\e2ee";
+}
+
+.sf-penguin:before {
+    content: "\e2ef";
+}
+
+.sf-penguin-o:before {
+    content: "\e2f0";
+}
+
+.sf-pixiv:before {
+    content: "\e2f1";
+}
+
+.sf-rebel-alliance:before {
+    content: "\e2f2";
+}
+
+.sf-chicken:before {
+    content: "\e2f3";
+}
+
+.sf-chicken-o:before {
+    content: "\e2f4";
+}
+
+.sf-dinosaur:before {
+    content: "\e2f5";
+}
+
+.sf-dinosaur-o:before {
+    content: "\e2f6";
+}
+
+.sf-fantastic-four:before {
+    content: "\e2f7";
+}
+
+.sf-ghost:before {
+    content: "\e2f8";
+}
+
+.sf-ghost-o:before {
+    content: "\e2f9";
+}
+
+.sf-ghostbusters:before {
+    content: "\e2fa";
+}
+
+.sf-goodreads:before {
+    content: "\e2fb";
+}
+
+.sf-jurassic-park:before {
+    content: "\e2fc";
+}
+
+.sf-peacock:before {
+    content: "\e2fd";
+}
+
+.sf-peacock-o:before {
+    content: "\e2fe";
+}
+
+.sf-voltron:before {
+    content: "\e2ff";
+}
+
+.sf-weibo:before {
+    content: "\e300";
+}
+
+.sf-flame:before {
+    content: "\e301";
+}
+
+.sf-flame-o:before {
+    content: "\e302";
+}
+
+.sf-legend-of-zelda:before {
+    content: "\e303";
+}
+
+.sf-rabbit:before {
+    content: "\e304";
+}
+
+.sf-rabbit-o:before {
+    content: "\e305";
+}
+
+.sf-snake:before {
+    content: "\e306";
+}
+
+.sf-snake-o:before {
+    content: "\e307";
+}
+
+.sf-supernatural:before {
+    content: "\e308";
+}
+
+.sf-tinder:before {
+    content: "\e309";
+}
+
+.sf-top-hat-o:before {
+    content: "\e30a";
+}
+
+.sf-top-hat:before {
+    content: "\e30b";
+}
+
+.sf-wattpad:before {
+    content: "\e30c";
+}
+
+.sf-ao3:before {
+    content: "\e30d";
+}
+
+.sf-badger-o:before {
+    content: "\e30f";
+}
+
+.sf-badger:before {
+    content: "\e30e";
+}
+
+.sf-bolt-o:before {
+    content: "\e311";
+}
+
+.sf-bolt:before {
+    content: "\e310";
+}
+
+.sf-brain-o:before {
+    content: "\e313";
+}
+
+.sf-brain:before {
+    content: "\e312";
+}
+
+.sf-deer-o:before {
+    content: "\e315";
+}
+
+.sf-deer:before {
+    content: "\e314";
+}
+
+.sf-deviantart:before {
+    content: "\e316";
+}
+
+.sf-duck-o:before {
+    content: "\e318";
+}
+
+.sf-duck:before {
+    content: "\e317";
+}
+
+.sf-eyeglasses:before {
+    content: "\e319";
+}
+
+.sf-fanfiction:before {
+    content: "\e31a";
+}
+
+.sf-fried-egg-o:before {
+    content: "\e31c";
+}
+
+.sf-fried-egg:before {
+    content: "\e31b";
+}
+
+.sf-human-heart-o:before {
+    content: "\e31e";
+}
+
+.sf-human-heart:before {
+    content: "\e31d";
+}
+
+.sf-intestine-o:before {
+    content: "\e320";
+}
+
+.sf-intestine:before {
+    content: "\e31f";
+}
+
+.sf-liver-o:before {
+    content: "\e322";
+}
+
+.sf-liver:before {
+    content: "\e321";
+}
+
+.sf-lungs-o:before {
+    content: "\e324";
+}
+
+.sf-lungs:before {
+    content: "\e323";
+}
+
+.sf-noodles-o:before {
+    content: "\e326";
+}
+
+.sf-noodles:before {
+    content: "\e325";
+}
+
+.sf-pizza-o:before {
+    content: "\e328";
+}
+
+.sf-pizza-slice-o:before {
+    content: "\e32a";
+}
+
+.sf-pizza-slice:before {
+    content: "\e329";
+}
+
+.sf-pizza:before {
+    content: "\e327";
+}
+
+.sf-rose-o:before {
+    content: "\e32c";
+}
+
+.sf-rose:before {
+    content: "\e32b";
+}
+
+.sf-scarlet-eye:before {
+    content: "\e32d";
+}
+
+.sf-square-o:before {
+    content: "\e32e";
+}
+
+.sf-square:before {
+    content: "\e339";
+}
+
+.sf-stomach-o:before {
+    content: "\e330";
+}
+
+.sf-stomach:before {
+    content: "\e32f";
+}
+
+.sf-tardis:before {
+    content: "\e331";
+}
+
+.sf-tea-o:before {
+    content: "\e335";
+}
+
+.sf-tea:before {
+    content: "\e332";
+}
+
+.sf-tokyo-ghoul:before {
+    content: "\e334";
+}
+
+.sf-twitch:before {
+    content: "\e333";
+}
+
+.sf-wave:before {
+    content: "\e336";
+}
+
+.sf-wolf-o:before {
+    content: "\e337";
+}
+
+.sf-wolf:before {
+    content: "\e338";
+}
