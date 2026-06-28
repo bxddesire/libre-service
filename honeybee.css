@@ -1,5 +1,16 @@
 @charset "UTF-8";
-@font-face {font-family: "honeybee";src:url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.eot");src:url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.eot?#iefix") format("embedded-opentype"),url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.woff") format("woff"),url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.ttf") format("truetype"),url("//solrainha.github.io/honeybee/honeybee.svg#honeybee") format("svg");font-weight: normal;font-style: normal;}
+@font-face {
+  font-family: "honeybee";
+  src:url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.eot");
+  src:url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.eot?#iefix") format("embedded-opentype"),
+    url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.woff") format("woff"),
+    url("https://files.jcink.net/uploads/ghostsongs/fonts/honeybee.ttf") format("truetype"),
+    url("//solrainha.github.io/honeybee/honeybee.svg#honeybee") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 [data-icon]:before {font-family: "honeybee" !important;content: attr(data-icon);font-style: normal !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;speak: none;line-height: 1;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 [class^="th-"]:before,[class*=" th-"]:before {font-family: "honeybee" !important;font-style: normal !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;speak: none;line-height: 1;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 [class^="th-"],[class*=" th-"]{display:inline-grid;}
